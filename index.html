@@ -54,11 +54,18 @@
                 <img src="Jiminyumbrella.jpg" width="60%">
             </div>
             <div class="col">
+                  <p>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
                  <form>
+                       <div class="mb-3">
                     <label for="fName" class="form-label">First Name :</label>
                     <input type="text" id="fName">
+                     </div>
+                       <div class="mb-3">
                     <label for="lName" class="form-label">Last Name :</label>
                     <input type="text" id="lName">
+                     </div>
                     <!-- set button onClick method to call function we defined passing input values as parameters -->
                     <button type="button" class="btn btn-primary" onclick="callAPI(document.getElementById('fName').value,document.getElementById('lName').value)">Click here</button>
                 </form>
